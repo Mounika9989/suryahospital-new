@@ -1,16 +1,47 @@
-# React + Vite
+# Surya Hospital Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Modern, responsive web platform for Surya Hospital providing healthcare information, clinical specialties, diagnostic services, facility showcases, and appointment scheduling.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **24/7 Emergency & Critical Care Information**: Fast access to emergency protocols and urgent contacts.
+- **Clinical Specialties**: Detailed overview of core surgical and medical departments.
+- **Diagnostics & Radiology**: Comprehensive list of diagnostic labs, imaging services, and routine testing.
+- **Interactive Appointment Booking**: Guided appointment booking journey and quick consultation requests.
+- **Responsive & Modern Design**: High-performance UI built with React, Vite, Tailwind CSS, Lucide Icons, and Framer Motion.
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the Oxlint configuration
+- Node.js (v18 or higher)
+- npm or yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Installation
+
+```bash
+npm install
+```
+
+### Development
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+### Production Build
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
